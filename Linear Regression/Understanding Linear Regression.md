@@ -70,22 +70,20 @@ Where:
 
 ## 5. Simple Example
 
-Suppose we are predicting a person's height () based on their age ():
+Suppose we are predicting a person's height (\( y \)) based on their age (\( x \)):
 
-| Age () | Height () |
-| ------ | --------- |
-| 5      | 110 cm    |
-| 6      | 115 cm    |
-| 7      | 120 cm    |
+| Age (\( x \)) | Height (\( y \)) |
+|---------------|------------------|
+| 5             | 110 cm           |
+| 6             | 115 cm           |
+| 7             | 120 cm           |
 
 Using linear regression:
+- Find how much height increases per year (\( w \)).
+- Find \( b \) (baseline height at \( x = 0 \)).
 
-- Find  (how much height increases per year).
-- Find  (baseline height at ).
-
-If  and , the equation becomes:
-
-For :
+For \( x = 8 \):
+\[ \hat{y} = 5(8) + 100 = 140 \text{ cm (predicted height)} \]
 
 ---
 
