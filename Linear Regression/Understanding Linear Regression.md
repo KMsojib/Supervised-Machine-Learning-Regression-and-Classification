@@ -116,6 +116,3 @@ For \( x = 8 \):
 A scatter plot with data points and the best-fit line represents the relationship between the independent and dependent variables.
 
 ---
-
-This explanation provides an overview of linear regression and its key concepts. Feel free to enhance or modify it for your GitHub repository!
-
