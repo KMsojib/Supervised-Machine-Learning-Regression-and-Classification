@@ -40,7 +40,7 @@ The linear regression model achieved an accuracy of **62.05%**. This indicates t
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/house-price-prediction.git
+    git clone https://github.com/KMsojib/house-price-prediction.git
     ```
 2. Navigate to the project directory:
     ```bash
