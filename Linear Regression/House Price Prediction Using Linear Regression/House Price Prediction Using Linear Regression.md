@@ -58,7 +58,7 @@ This project demonstrates the use of linear regression to predict house prices b
 
 ## Author
 
-- **Your Name** - [GitHub](https://github.com/KMsojib)
+- **MD Kawsar Mahmud** - [GitHub](https://github.com/KMsojib)
 
 ## License
 
