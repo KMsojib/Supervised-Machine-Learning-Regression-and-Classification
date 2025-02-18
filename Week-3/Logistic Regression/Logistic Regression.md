@@ -59,25 +59,27 @@ Mathematically, the sigmoid is represented as:
 	σ(x) = 1 / (1 + e^(-x))
 
 Where, 
-	σ is the sigmoid function
-	x is the input value
-	e is Euler's number (≈2.718)
+	* σ is the sigmoid function
+	* x is the input value
+	* e is Euler's number (≈2.718)
 
 ### Logit Function
 
 The logit function is the inverse of the sigmoid function and is used to model the relationship between the dependent binary variable and one or more independent variables. It is defined as the natural logarithm (log) of the odds of the dependent event occurring.
 
 Mathematically, the logit function is represented as:
-\[ \text{logit}(p) = \ln\left(\frac{p}{1 - p}\right) \]
+
+logit(p) = log(p / (1 - p))
 
 Where:
 * \(p\) is the probability of the event occurring
 * \(\ln\) is the natural logarithm
+* * p / (1-p) = corresponding odds
 
 ## Logistic Regression Model
 
 The logistic regression model is built on the logistic function. The logistic regression equation can be written as:
-\[ \ln\left(\frac{p}{1 - p}\right) = \beta_0 + \beta_1x_1 + \beta_2x_2 + \ldots + \beta_kx_k \]
+
 
 Where:
 * \(p\) is the probability of the event occurring
